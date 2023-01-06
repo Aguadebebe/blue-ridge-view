@@ -13,10 +13,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font: normal bold 6.2rem / 1.2
+    font: normal bold 3.6rem / 1.2
     "Poppins", "Helvetica", sans-serif;
     text-align: center;
-    @media screen and (max-width: 2501px) and (min-width: 300px)
+     
 }
 .wrapper {
     width: 100%;
@@ -27,16 +27,16 @@ body {
     left: 0%;
     top: 0%;
     height: 60vh;
-    width: 167vw;
+    width: 112vw;
     border-radius: 5%;
  }
 .header-text {
     position: absolute;
     top: 52vh;
-    left: 40%;
-    right: -30%;
+    left: 12%;
+    right: 0%;
     color:white;
-    z-index: 5;
+    z-index: 1;
     font-size: 30px;
     
 }
@@ -46,7 +46,7 @@ body {
     position: absolute;
     top: -1.3vh;
     right: 0;
-    left: 150vw;
+    left: 92vw;
     font-size: 20px;
     display: inline block;
     background: purple;
@@ -102,14 +102,14 @@ body {
     font-size: 40px;
     width: 250px;
     height: 100vh;
-    position: fixed;
-    left: 60%;
+    position: absolute;
+    left: 50vw;
     right: 0;
     top: 0;
     background: #f67c92;
     z-index: 2;
     cursor: pointer;
-     
+  
 }
  .slide {
     transform: translateX(100vw);
@@ -132,34 +132,49 @@ nav ul li a{
 
 @media only screen and (min-width: 768px) {
     .wrapper {
-        width: 600px;
+        width: 768px;
         margin: 0 auto;
     }
     .cover{
         position: absolute;
         left: 0%;
         top: 0%;
-        height: 60vh;
+        height: 55vh;
         width: 100vw;
         border-radius: 5%;
      }
      .header-text {
         position: absolute;
-        top: 56vh;
-        left: 0%;
+        top: 51vh;
+        left: 10%;
         right: 0%;
         color:white;
         z-index: 1;
         font-size: 30px;
         
     }
+    .text {
+        position: absolute;
+        top: 56%;
+        left: 5%;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+    
+        animation: animatedText 5s  infinite alternate-reverse; 
+    }
+    
     #menuBtnOne {
         height: 40px;
         width: 60px;
         position: absolute;
         top: -1.3vh;
-        right: 0;
-        left: 92vw;
+        right: 90vw;
+        left: 89%;
         font-size: 20px;
         display: inline block;
         background: purple;
@@ -174,61 +189,7 @@ nav ul li a{
         width: 250px;
         height: 100vh;
         position: fixed;
-        left: 68%;
-        right: 0;
-        top: 0;
-        background: #f67c92;
-        z-index: 2;
-        cursor: pointer;
-         
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .wrapper {
-        width: 600px;
-        margin: 0 auto;
-    }
-    .cover{
-        position: absolute;
-        left: 0%;
-        top: 0%;
-        height: 60vh;
-        width: 100vw;
-        border-radius: 5%;
-     }
-     .header-text {
-        position: absolute;
-        top: 56vh;
-        left: 0%;
-        right: 0%;
-        color:white;
-        z-index: 1;
-        font-size: 30px;
-        
-    }
-    #menuBtnOne {
-        height: 40px;
-        width: 60px;
-        position: absolute;
-        top: -1.3vh;
-        right: 0;
-        left: 92vw;
-        font-size: 20px;
-        display: inline block;
-        background: purple;
-        margin: 15px 0;
-        z-index: 1;
-        font-style: "Poppins", "Helvetica", sans-serif;
-        cursor: pointer;
-    
-    }
-    #sideNavBar{
-        font-size: 40px;
-        width: 250px;
-        height: 100vh;
-        position: fixed;
-        left: 68%;
+        left: 67%;
         right: 0;
         top: 0;
         background: #f67c92;
@@ -239,65 +200,33 @@ nav ul li a{
 }
  
  
-@media only screen and (min-width: 768px) {
-    .wrapper {
-        width: 600px;
-        margin: 0 auto;
-    }
-    .cover{
-        position: absolute;
-        left: 0%;
-        top: 0%;
-        height: 60vh;
-        width: 100vw;
-        border-radius: 5%;
-     }
-     .header-text {
-        position: absolute;
-        top: 56vh;
-        left: 0%;
-        right: 0%;
-        color:white;
-        z-index: 1;
-        font-size: 30px;
-        
-    }
-    #menuBtnOne {
-        height: 40px;
-        width: 60px;
-        position: absolute;
-        top: -1.3vh;
-        right: 0;
-        left: 92vw;
-        font-size: 20px;
-        display: inline block;
-        background: purple;
-        margin: 15px 0;
-        z-index: 1;
-        font-style: "Poppins", "Helvetica", sans-serif;
-        cursor: pointer;
-    
-    }
-    #sideNavBar{
-        font-size: 40px;
-        width: 250px;
-        height: 100vh;
-        position: fixed;
-        left: 68%;
-        right: 0;
-        top: 0;
-        background: #f67c92;
-        z-index: 2;
-        cursor: pointer;
-         
-    }
-}
+ 
+             
+     
  
  @media only screen and (min-width: 1000px) {
 
     .wrapper {
         width: 1000px;
         margin: 0 auto;
+    }
+    .cover{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        height: 60vh;
+        width: 100vw;
+        border-radius: 5%;
+     }
+     .header-text {
+        position: absolute;
+        top: 54vh;
+        left: 12%;
+        right: 0%;
+        color:white;
+        z-index: 1;
+        font-size: 50px;
+        
     }
     .text {
         position: absolute;
@@ -310,6 +239,10 @@ nav ul li a{
         color: transparent; 
         background-size: 300%; 
         background-position: -100%;
+        font: normal bold 6.6rem / 1.2
+    "Poppins", "Helvetica", sans-serif;
+    font-family: cursive;
+    text-align: center;
     
         animation: animatedText 5s  infinite alternate-reverse; 
     }
@@ -319,7 +252,7 @@ nav ul li a{
         position: absolute;
         top: -1.3vh;
         right: 0;
-        left: 97.5vw;
+        left: 97vw;
         font-size: 20px;
         display: inline block;
         background: purple;
@@ -327,6 +260,7 @@ nav ul li a{
         z-index: 1;
         font-style: "Poppins", "Helvetica", sans-serif;
         cursor: pointer;
+        
     
     }
     #sideNavBar{
