@@ -106,7 +106,7 @@ body {
     width: 140px;
     height: 100vh;
     position: absolute;
-    left: 63vw;
+    left: 100vw;
     right: 0;
     top: 0;
     background: #f67c92;
@@ -115,11 +115,11 @@ body {
   
 }
  .slide {
-    transform: translateX(100vw);
+    transform: translateX(100%);
     transition: 4s;
  }
  .slides {
-    transform: translateX(-0vw);
+    transform: translateX(-38vw);
     transition: 1s;
  }
 
@@ -142,24 +142,25 @@ nav ul li a{
         position: absolute;
         left: 0%;
         top: 0%;
-        height: 55vh;
-        width: 100vw;
+        height: 45vh;
+        width: 74vw;
         border-radius: 5%;
      }
      .header-text {
         position: absolute;
-        top: 51vh;
-        left: 10%;
-        right: 0%;
+        top: 42vh;
+        left: 0%;
+        right: 10%;
         color:white;
         z-index: 1;
-        font-size: 30px;
+        font-size: 25px;
         
     }
     .text {
         position: absolute;
-        top: 56%;
-        left: 5%;
+        top: 46%;
+        left: -27%;
+        right: 0%;
         text-transform: uppercase;
         background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
         background-clip: text;
@@ -167,17 +168,17 @@ nav ul li a{
         color: transparent; 
         background-size: 300%; 
         background-position: -100%;
-    
+        font-size: 2.8rem;
         animation: animatedText 5s  infinite alternate-reverse; 
     }
     
     #menuBtnOne {
-        height: 40px;
+        height: 35px;
         width: 60px;
         position: absolute;
         top: -1.3vh;
         right: 90vw;
-        left: 89%;
+        left: 65%;
         font-size: 20px;
         display: inline block;
         background: purple;
@@ -188,7 +189,7 @@ nav ul li a{
     
     }
     #menuBtnTwo {
-        height: 40px;
+        height: 35px;
         width: 60px;
         position: absolute;
         top: -1.8vh;
@@ -202,11 +203,11 @@ nav ul li a{
         cursor: pointer;
     }
     #sideNavBar{
-        font-size: 40px;
-        width: 250px;
+        font-size: 30px;
+        width: 200px;
         height: 100vh;
         position: fixed;
-        left: 67%;
+        left: 85vw;
         right: 0;
         top: 0;
         background: #f67c92;
@@ -299,7 +300,7 @@ nav ul li a{
         width: 250px;
         height: 100vh;
         position: fixed;
-        left: 90%;
+        left: 128vw;
         right: 0;
         top: 0;
         background: #f67c92;
