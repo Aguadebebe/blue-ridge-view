@@ -132,6 +132,7 @@ nav ul li a{
     color: #fff;
 
 }
+/*All above is sized for 375 x 667 iphone 7 screen size*/
 
 @media only screen and (min-width: 768px) {
     .wrapper {
@@ -193,7 +194,7 @@ nav ul li a{
         width: 60px;
         position: absolute;
         top: -1.8vh;
-        left: 0px;
+        left: 136px;
         font-size: 20px;
         display: inline block;
         background: purple;
@@ -205,7 +206,6 @@ nav ul li a{
     #sideNavBar{
         font-size: 30px;
         width: 200px;
-        height: 100vh;
         position: fixed;
         left: 85vw;
         right: 0;
@@ -216,7 +216,7 @@ nav ul li a{
          
     }
 }
- 
+ /*All in above section is sized for ipad mini*/
  
  
              
@@ -286,7 +286,7 @@ nav ul li a{
     width: 60px;
     position: absolute;
     top: -1.8vh;
-    left: 0px;
+    left: 180px;
     font-size: 20px;
     display: inline block;
     background: purple;
@@ -298,7 +298,6 @@ nav ul li a{
     #sideNavBar{
         font-size: 40px;
         width: 250px;
-        height: 100vh;
         position: fixed;
         left: 128vw;
         right: 0;
@@ -309,7 +308,7 @@ nav ul li a{
          
     }
  }
-
+ /*All above section is for any full sized monitor above 1000px*/
  
  
     
