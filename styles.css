@@ -63,7 +63,7 @@ body {
     width: 40px;
     position: absolute;
     top: -1.8vh;
-    left: 0px;
+    left: 70%;
     font-size: 13px;
     display: inline block;
     background: purple;
@@ -106,7 +106,7 @@ body {
     width: 140px;
     height: 100vh;
     position: absolute;
-    left: 100vw;
+    left: 100.5vw;
     right: 0;
     top: 0;
     background: #f67c92;
