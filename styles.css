@@ -90,7 +90,7 @@ body {
     color: transparent; 
     background-size: 300%; 
     background-position: -100%;
-
+    font-family: Cambria;
     animation: animatedText 5s  infinite alternate-reverse; 
 }
 
@@ -180,7 +180,6 @@ nav ul li a {
         
     }
     .text {
-         
         top: 46%;
         left: -27%;
         right: 0%;
@@ -246,7 +245,7 @@ nav ul li a {
         "Poppins", "Helvetica", sans-serif;
         font-family: cursive;
         text-align: center;
-    
+        font-family: Cursive;
     }
     #menuBtnOne {
         height: 40px;
