@@ -146,6 +146,19 @@ nav ul li a {
     
 }
 
+/*----features----*/
+
+#features {
+    position: absolute;
+    top: 250vh;
+    right: 0%;
+
+}
+
+p {
+    font-size: 1.5rem;
+}
+
 .about-left-col {
     flex-basis: 100%;
 }
