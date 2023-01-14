@@ -25,3 +25,11 @@ function slideBack() {
     navBar.classList.add("slide")
     navBar.classList.remove("slides")
 }
+function smooth() {
+var scroll = new SmoothScroll('a[href*="#"]', {
+speed: 1000,
+speedAsDuration: true
+})
+return scroll
+}
+smooth()

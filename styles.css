@@ -80,9 +80,9 @@ body {
 }
 .text {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 0%;
-    right: 10%;
+    right: 0%;
     text-transform: uppercase;
     background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
     background-clip: text;
@@ -93,6 +93,10 @@ body {
     font-family: Cambria;
     animation: animatedText 5s  infinite alternate-reverse; 
 }
+P {
+    font-size: 3.2rem;
+}
+ 
 
 @keyframes animatedText {
     100% {
@@ -143,21 +147,156 @@ nav ul li a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    
+    font-size: 1.5rem;
 }
 
 /*----features----*/
 
 #features {
     position: absolute;
-    top: 250vh;
+    top: 240vh;
     right: 0%;
-
-}
-
-p {
     font-size: 1.5rem;
+
 }
+
+    /*----Networking----*/
+
+    #networking {
+        position: absolute;
+        top: 350vh;
+        left: 0vw;
+        right: 0;
+        font-size: 1.5rem;
+    }
+
+
+     /*----Webdevelopment----*/
+
+     #webDevelopment {
+        position: absolute;
+        top: 440vh;
+        left: 0;
+        right: 0;
+        font-size: 1.5rem;
+    }
+
+    /*----Contact Us----*/
+    
+    #contactUs {
+        position: absolute;
+        top: 520vh;
+        left: 0;
+        right:0vw;
+        font-size: 2.3rem;
+    }
+    .text1 {
+        position: absolute;
+    top: 105vh;
+    left: 0;
+    right: 2vw;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-size: 300%; 
+    background-position: -100%;
+    font-family: Cambria;
+    animation: animatedText 5s  infinite alternate-reverse; 
+    }
+    .text2 {
+        position: absolute;
+        top: 230vh;
+        left: 0vw;
+        right: 0vw;
+        font-size: 3rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+    }
+    .text3 {
+        position: absolute;
+        top: 340vh;
+        left: 0;
+        right: 0;
+        font-size: 3rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
+    }
+    .text4 {
+        position: absolute;
+        top: 420vh;
+        left: 0;
+        right: 20;
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
+    }
+    .text5 {
+        position: absolute;
+        top: 510vh;
+        left: 0;
+        right: 5vw;
+        font-size: 3rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
+    
+    
+    }
+    .text6 {
+        position: absolute;
+        top: 530vh;
+        left: 0;
+        right: 0;
+        font-size: 4rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        z-index: 2;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
+    
+    
+    }
+
+ 
 
 .about-left-col {
     flex-basis: 100%;
@@ -177,7 +316,7 @@ p {
 
 /*All above is sized for 375 x 667 iphone 7 screen size*/
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
     .wrapper {
         width: 768px;
         
@@ -187,9 +326,7 @@ p {
         width: 74vw;
          
      }
-    .header-text {
-        left: 0%;
-        right: 10%;
+        
         
     }
     .text {
@@ -197,7 +334,7 @@ p {
         left: -27%;
         right: 0%;
         font-size: 2.8rem;
-        font: normal bold 6.6rem / 1.2
+        font: normal bold 3.6rem / 1.2
         "Poppins", "Helvetica", sans-serif;
         font-family: cursive;
         text-align: center;
@@ -226,7 +363,7 @@ p {
         z-index: 2;
         
     }
-}
+*/
  /*All in above section is sized for ipad mini*/
  
  
@@ -245,21 +382,12 @@ p {
         
     }
      .header-text {
-        top: 54vh;
-        left: 12%;
-        right: 0%;
-        font-size: 50px;
+        top: 55vh;
+        font-size: 35px;
         
+         
     }
-    .text {
-        top: 60%;
-        left: 15%;
-        font: normal bold 6.6rem / 1.2
-        "Poppins", "Helvetica", sans-serif;
-        font-family: cursive;
-        text-align: center;
-        font-family: Cursive;
-    }
+      
     #menuBtnOne {
         height: 40px;
         width: 60px;
@@ -291,10 +419,166 @@ p {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        font-size: 2.3rem;
         
     }
+    .text {
+        top: 60%;
+        left: 0%;
+        font: normal bold 6.6rem / 1.2
+        "Poppins", "Helvetica", sans-serif;
+        text-align: center;
+        font-family: Cursive;
+    }
     
- }
+    .text1 {
+        position: absolute;
+    top: 143vh;
+    left: 0;
+    right: 65vw;
+    font-size: 5rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-size: 300%; 
+    background-position: -100%;
+    font-family: Cambria;
+    animation: animatedText 5s  infinite alternate-reverse; 
+    }
+
+    /*----features----*/
+
+    #features {
+        position: absolute;
+        top: 225vh;
+        right: 40vw;
+        left: 0;
+        font-size: 2.3rem;
+    
+    }
+
+    /*----Networking----*/
+
+    #networking {
+        position: absolute;
+        top: 350vh;
+        left: 40vw;
+        right: 0;
+        font-size: 2.3rem;
+    }
+
+    /*----Webdevelopment----*/
+
+    #webDevelopment {
+        position: absolute;
+        top: 450vh;
+        left: 0;
+        right: 40vw;
+        font-size: 2.3rem;
+    }
+     
+    /*----Contact Us----*/
+     
+    #contactUs {
+        position: absolute;
+        top: 550vh;
+        left: 0;
+        right:0vw;
+        font-size: 2.3rem;
+    }
+    .text2 {
+        position: absolute;
+        top: 255vh;
+        left: 60vw;
+        right: 0vw;
+        font-size: 5rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+    }
+    .text3 {
+        position: absolute;
+        top: 383vh;
+        left: 0;
+        right: 60vw;
+        font-size: 5rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
+    }
+    .text4 {
+        position: absolute;
+        top: 475vh;
+        left: 60vw;
+        right: 20;
+        font-size: 5rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
+    }
+    .text5 {
+        position: absolute;
+        top: 540vh;
+        left: 0;
+        right: 5vw;
+        font-size: 7rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
+    
+    
+    }
+
+    .text6 {
+        position: absolute;
+        top: 570vh;
+        left: 0;
+        right: 0;
+        font-size: 12rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        z-index: 2;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
+    
+    
+    }
+}
  /*All above section is for any full sized monitor above 1000px*/
  
  
