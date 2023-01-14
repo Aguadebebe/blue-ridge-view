@@ -51,7 +51,6 @@ body {
     right: 0;
     bottom: 0;
     font-size: 13px;
-     
     background: purple;
     margin: 4px 0;
     z-index: 1;
@@ -160,38 +159,38 @@ nav ul li a {
 
 }
 
-    /*----Networking----*/
+/*----Networking----*/
 
-    #networking {
-        position: absolute;
-        top: 350vh;
-        left: 0vw;
-        right: 0;
-        font-size: 1.5rem;
-    }
+#networking {
+    position: absolute;
+    top: 350vh;
+    left: 0vw;
+    right: 0;
+    font-size: 1.5rem;
+}
 
 
-     /*----Webdevelopment----*/
+/*----Webdevelopment----*/
 
-     #webDevelopment {
-        position: absolute;
-        top: 440vh;
-        left: 0;
-        right: 0;
-        font-size: 1.5rem;
-    }
+#webDevelopment {
+    position: absolute;
+    top: 440vh;
+    left: 0;
+    right: 0;
+    font-size: 1.5rem;
+}
 
-    /*----Contact Us----*/
+/*----Contact Us----*/
     
-    #contactUs {
-        position: absolute;
-        top: 520vh;
-        left: 0;
-        right:0vw;
-        font-size: 2.3rem;
-    }
-    .text1 {
-        position: absolute;
+#contactUs {
+    position: absolute;
+    top: 520vh;
+    left: 0;
+    right:0vw;
+    font-size: 2.3rem;
+}
+.text1 {
+    position: absolute;
     top: 105vh;
     left: 0;
     right: 2vw;
@@ -205,96 +204,96 @@ nav ul li a {
     background-position: -100%;
     font-family: Cambria;
     animation: animatedText 5s  infinite alternate-reverse; 
-    }
-    .text2 {
-        position: absolute;
-        top: 230vh;
-        left: 0vw;
-        right: 0vw;
-        font-size: 3rem;
-        text-transform: uppercase;
-        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent; 
-        background-size: 300%; 
-        background-position: -100%;
-        font-family: Cambria;
-        animation: animatedText 5s  infinite alternate-reverse;  
-    }
-    .text3 {
-        position: absolute;
-        top: 340vh;
-        left: 0;
-        right: 0;
-        font-size: 3rem;
-        text-transform: uppercase;
-        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent; 
-        background-size: 300%; 
-        background-position: -100%;
-        font-family: Cambria;
-        animation: animatedText 5s  infinite alternate-reverse;  
+}
+.text2 {
+    position: absolute;
+    top: 230vh;
+    left: 0vw;
+    right: 0vw;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-size: 300%; 
+    background-position: -100%;
+    font-family: Cambria;
+    animation: animatedText 5s  infinite alternate-reverse;  
+}
+.text3 {
+    position: absolute;
+    top: 340vh;
+    left: 0;
+    right: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-size: 300%; 
+    background-position: -100%;
+    font-family: Cambria;
+    animation: animatedText 5s  infinite alternate-reverse;  
 
-    }
-    .text4 {
-        position: absolute;
-        top: 420vh;
-        left: 0;
-        right: 20;
-        font-size: 2.8rem;
-        text-transform: uppercase;
-        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent; 
-        background-size: 300%; 
-        background-position: -100%;
-        font-family: Cambria;
-        animation: animatedText 5s  infinite alternate-reverse;  
+}
+.text4 {
+    position: absolute;
+    top: 420vh;
+    left: 0;
+    right: 20;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-size: 300%; 
+    background-position: -100%;
+    font-family: Cambria;
+    animation: animatedText 5s  infinite alternate-reverse;  
 
-    }
-    .text5 {
-        position: absolute;
-        top: 510vh;
-        left: 0;
-        right: 5vw;
-        font-size: 3rem;
-        text-transform: uppercase;
-        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent; 
-        background-size: 300%; 
-        background-position: -100%;
-        font-family: Cambria;
-        animation: animatedText 5s  infinite alternate-reverse;  
-
-    
-    
-    }
-    .text6 {
-        position: absolute;
-        top: 530vh;
-        left: 0;
-        right: 0;
-        font-size: 4rem;
-        text-transform: uppercase;
-        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent; 
-        background-size: 300%; 
-        background-position: -100%;
-        font-family: Cambria;
-        z-index: 2;
-        animation: animatedText 5s  infinite alternate-reverse;  
+}
+.text5 {
+    position: absolute;
+    top: 510vh;
+    left: 0;
+    right: 5vw;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-size: 300%; 
+    background-position: -100%;
+    font-family: Cambria;
+    animation: animatedText 5s  infinite alternate-reverse;  
 
     
     
-    }
+}
+.text6 {
+    position: absolute;
+    top: 530vh;
+    left: 0;
+    right: 0;
+    font-size: 4rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-size: 300%; 
+    background-position: -100%;
+    font-family: Cambria;
+    z-index: 2;
+    animation: animatedText 5s  infinite alternate-reverse;  
+
+    
+    
+}
 
  
 
