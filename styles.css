@@ -80,7 +80,7 @@ body {
 }
 .text {
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 0%;
     right: 0%;
     text-transform: uppercase;
@@ -94,7 +94,7 @@ body {
     animation: animatedText 5s  infinite alternate-reverse; 
 }
 P {
-    font-size: 3.2rem;
+    font-size: 3rem;
 }
  
 
