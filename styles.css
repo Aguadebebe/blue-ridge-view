@@ -391,7 +391,7 @@ nav ul li a {
     #menuBtnOne {
         height: 40px;
         width: 60px;
-        left: 96vw;
+        left: 97vw;
         font-size: 20px;
          
     }
@@ -407,8 +407,16 @@ nav ul li a {
         font-size: 40px;
         width: 250px;
         position: fixed;
-        left: 123vw;
+        left: 128vw;
         
+    }
+    .text {
+        top: 70%;
+        left: 0%;
+        font: normal bold 6.6rem / 1.2
+        "Poppins", "Helvetica", sans-serif;
+        text-align: center;
+        font-family: Cursive;
     }
     #about {
         position: absolute;
@@ -422,21 +430,12 @@ nav ul li a {
         font-size: 2.3rem;
         
     }
-    .text {
-        top: 70%;
-        left: 0%;
-        font: normal bold 6.6rem / 1.2
-        "Poppins", "Helvetica", sans-serif;
-        text-align: center;
-        font-family: Cursive;
-    }
-    
     .text1 {
         position: absolute;
     top: 143vh;
     left: 0;
     right: 65vw;
-    font-size: 5rem;
+    font-size: 6rem;
     text-transform: uppercase;
     background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
     background-clip: text;
@@ -452,74 +451,64 @@ nav ul li a {
 
     #features {
         position: absolute;
-        top: 225vh;
+        top: 275vh;
         right: 40vw;
         left: 0;
         font-size: 2.3rem;
     
+    }
+    .text2 {
+        position: absolute;
+        top: 340vh;
+        left: 60vw;
+        right: 0vw;
+        font-size: 7rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
     }
 
     /*----Networking----*/
 
     #networking {
         position: absolute;
-        top: 350vh;
+        top: 435vh;
         left: 40vw;
         right: 0;
         font-size: 2.3rem;
+    }
+    .text3 {
+        position: absolute;
+        top: 490vh;
+        left: 0;
+        right: 60vw;
+        font-size: 7rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+        background-size: 300%; 
+        background-position: -100%;
+        font-family: Cambria;
+        animation: animatedText 5s  infinite alternate-reverse;  
+
     }
 
     /*----Webdevelopment----*/
 
     #webDevelopment {
         position: absolute;
-        top: 450vh;
+        top: 585vh;
         left: 0;
         right: 40vw;
         font-size: 2.3rem;
-    }
-     
-    /*----Contact Us----*/
-     
-    #contactUs {
-        position: absolute;
-        top: 550vh;
-        left: 0;
-        right:0vw;
-        font-size: 2.3rem;
-    }
-    .text2 {
-        position: absolute;
-        top: 255vh;
-        left: 60vw;
-        right: 0vw;
-        font-size: 5rem;
-        text-transform: uppercase;
-        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent; 
-        background-size: 300%; 
-        background-position: -100%;
-        font-family: Cambria;
-        animation: animatedText 5s  infinite alternate-reverse;  
-    }
-    .text3 {
-        position: absolute;
-        top: 383vh;
-        left: 0;
-        right: 60vw;
-        font-size: 5rem;
-        text-transform: uppercase;
-        background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent; 
-        background-size: 300%; 
-        background-position: -100%;
-        font-family: Cambria;
-        animation: animatedText 5s  infinite alternate-reverse;  
-
     }
     .text4 {
         position: absolute;
@@ -538,12 +527,22 @@ nav ul li a {
         animation: animatedText 5s  infinite alternate-reverse;  
 
     }
+     
+    /*----Contact Us----*/
+     
+    #contactUs {
+        position: absolute;
+        top: 750vh;
+        left: 0;
+        right:0vw;
+        font-size: 2.3rem;
+    }
     .text5 {
         position: absolute;
-        top: 540vh;
+        top: 730vh;
         left: 0;
         right: 5vw;
-        font-size: 7rem;
+        font-size: 9rem;
         text-transform: uppercase;
         background-image: linear-gradient(to right, #00E260, #f79d00, #0575E6, #64f38c);
         background-clip: text;
@@ -560,7 +559,7 @@ nav ul li a {
 
     .text6 {
         position: absolute;
-        top: 570vh;
+        top: 800vh;
         left: 0;
         right: 0;
         font-size: 12rem;
