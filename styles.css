@@ -381,7 +381,8 @@ nav ul li a {
         
     }
      .header-text {
-        top: 55vh;
+        top: 60vh;
+        right: 30%;
         font-size: 35px;
         
          
@@ -422,7 +423,7 @@ nav ul li a {
         
     }
     .text {
-        top: 60%;
+        top: 70%;
         left: 0%;
         font: normal bold 6.6rem / 1.2
         "Poppins", "Helvetica", sans-serif;
